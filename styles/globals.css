@@ -5,49 +5,49 @@
 @layer base {
   @font-face {
     font-family: "Unbounded-Regular";
-    src: url("/font/Unbounded/Unbounded-Regular.woff") format("woff");
+    src: url("../public/font/Unbounded/Unbounded-Regular.woff") format("woff");
     font-display: swap;
     font-style: normal;
   }
   @font-face {
     font-family: "Unbounded-Light";
-    src: url("/font/Unbounded/Unbounded-Light.woff") format("woff");
+    src: url("../public/font/Unbounded/Unbounded-Light.woff") format("woff");
     font-display: swap;
     font-style: normal;
   }
   @font-face {
     font-family: "Unbounded-Medium";
-    src: url("/font/Unbounded/Unbounded-Medium.woff") format("woff");
+    src: url("../public/font/Unbounded/Unbounded-Medium.woff") format("woff");
     font-display: swap;
     font-style: normal;
   }
   @font-face {
     font-family: "Unbounded-ExtraLight";
-    src: url("/font/Unbounded/Unbounded-ExtraLight.woff") format("woff");
+    src: url("../public/font/Unbounded/Unbounded-ExtraLight.woff") format("woff");
     font-display: swap;
     font-style: normal;
   }
   @font-face {
     font-family: "Unbounded-Bold";
-    src: url("/font/Unbounded/Unbounded-Bold.woff") format("woff");
+    src: url("../public/font/Unbounded/Unbounded-Bold.woff") format("woff");
     font-display: swap;
     font-style: normal;
   }
   @font-face {
     font-family: "Unbounded-ExtraBold";
-    src: url("/font/Unbounded/Unbounded-ExtraBold.woff") format("woff");
+    src: url("../public/font/Unbounded/Unbounded-ExtraBold.woff") format("woff");
     font-display: swap;
     font-style: normal;
   }
   @font-face {
     font-family: "Unbounded-Black";
-    src: url("/font/Unbounded/Unbounded-Black.woff") format("woff");
+    src: url("../public/font/Unbounded/Unbounded-Black.woff") format("woff");
     font-display: swap;
     font-style: normal;
   }
   @font-face {
     font-family: "Unbounded-SemiBold";
-    src: url("/font/Unbounded/Unbounded-SemiBold.woff") format("woff");
+    src: url("../public/font/Unbounded/Unbounded-SemiBold.woff") format("woff");
     font-display: swap;
     font-style: normal;
   }
@@ -61,7 +61,7 @@
 
 .c-noise {
   animation: grain 6s steps(10) infinite;
-  background-image: url("/noise/noise-full.png");
+  background-image: url("../public/noise/noise-full.png");
   background-repeat: repeat;
   height: 300%;
   left: -50%;
@@ -115,7 +115,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("/noise/old.webp");
+  background-image: url("../public/noise/old.webp");
   opacity: 0.05;
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,7 +126,7 @@
 
 .c-noiseOne {
   animation: grainOne 6s steps(10) infinite;
-  background-image: url("/noise/noise-full.png");
+  background-image: url("../public/noise/noise-full.png");
   background-repeat: repeat;
   height: 300%;
   left: -50%;
@@ -180,7 +180,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("/noise/old.webp");
+  background-image: url("../public/noise/old.webp");
   opacity: 0.05;
   background-repeat: no-repeat;
   background-size: cover;
@@ -191,7 +191,7 @@
 
 .o-tape {
   position: absolute;
-  background-image: url("/noise/tape.png");
+  background-image: url("../public/noise/tape.png");
   background-repeat: repeat-y;
   background-size: contain;
   background-position: top center;
