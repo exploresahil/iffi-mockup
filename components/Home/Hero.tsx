@@ -240,7 +240,11 @@ function Hero() {
   return (
     <section className="heroContainer h-[100vh]">
       <div className="w-[100vw] h-[180px] my-[100px] lg:my-0 px-[8vw] flex flex-wrap gap-6 justify-center lg:justify-between items-center text-xl text-[#E54613] font-iFontB">
-        <h1 className="logos">IFFI</h1>
+        <img
+          className="logos h-50px"
+          src="https://i.postimg.cc/3N5VRyN8/International-film-festival-of-india-IFFI-654128944.jpg"
+          alt="logo"
+        />
         <h1 className="logos">FIAPF</h1>
         <h1 className="logos">Ministry of I&B</h1>
         <h1 className="logos">NFDC</h1>

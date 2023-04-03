@@ -46,7 +46,7 @@ function Header() {
           <PageLinks pageLink="#" title="Home" />
           <PageLinks pageLink="#" title="Programme" />
           <PageLinks pageLink="#" title="The Bazaar" />
-          <PageLinks pageLink="#" title="Participate" />
+          <PageLinks pageLink="#" title="Take Part" />
           <li>
             <Link
               href="#"

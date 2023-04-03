@@ -238,15 +238,35 @@ export default function Home() {
   }, []);
 
   return (
-    <section className="mt-[80px]">
-      <div className="w-[100vw] h-[180px] my-[100px] lg:my-0 px-[8vw] flex flex-wrap gap-6 justify-center lg:justify-between items-center text-xl text-[#E54613] font-iFontB">
-        <h1 className="logos">IFFI</h1>
-        <h1 className="logos">FIAPF</h1>
-        <h1 className="logos">Ministry of I&B</h1>
-        <h1 className="logos">NFDC</h1>
-        <h1 className="logos">ESG</h1>
+    <section className="mt-[80px] bg-iLight">
+      <div className="w-[100vw] h-[240px] my-[100px] lg:my-0 px-[8vw] grid grid-cols-5 items-center gap-8 text-xl text-[#E54613] font-iFontB ">
+        <img
+          className="logos max-w-[100%] max-h-[50%] mix-blend-multiply justify-self-center"
+          src="https://i.postimg.cc/zBdzLZ62/International-film-festival-of-india-IFFI-654128944.png"
+          alt="logo"
+        />
+        <img
+          className="logos w-[100%] max-h-[100%] justify-self-center"
+          src="https://i.postimg.cc/tTRRCCSV/logo-fiapf-v4.png"
+          alt="logo"
+        />
+        <img
+          className="logos w-[100%] max-h-[150%] mix-blend-multiply justify-self-center "
+          src="https://i.postimg.cc/zvVJK21z/ib-3668526513.png"
+          alt="logo"
+        />
+        <img
+          className="logos max-w-[100%] max-h-[35%] mix-blend-multiply justify-self-center"
+          src="https://i.postimg.cc/zfFXrRjr/nfdc-logo.png  "
+          alt="logo"
+        />
+        <img
+          className="logos w-[100%] max-h-[40%]"
+          src="https://i.postimg.cc/d1TgwRqN/ESGlogo-02-e1610553918745.png justify-self-center"
+          alt="logo"
+        />
       </div>
-      <div className="w-[100vw] flex flex-col justify-center items-center">
+      <div className="w-[100vw] flex flex-col justify-center items-center ">
         <h2 className="heroContent text-center leading-[1] font-iFontSerif text-[3.5rem]">
           Film Bazaar 2023
         </h2>
@@ -259,7 +279,7 @@ export default function Home() {
           festival programmers from across the world.
         </p>
       </div>
-      <div className="imagesContainer mt-[50px] flex h-[750px] w-[100vw] pointer-events-none  relative">
+      <div className="imagesContainer mt-[50px] flex h-[750px] w-[100vw] pointer-events-none relative">
         <h2 className="welcomeText text-center absolute left-[50%] translate-x-[-50%] bottom-[150px] z-[100] font-iFontSerif text-[3.5rem] text-iDark font-extrabold">
           Welcome to Film Bazaar 2023
         </h2>
@@ -424,8 +444,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center px-[10vw] py-[80px]">
-        <h2 className="font-iFontSerif text-[3.5rem] text-iOrange">Sponsors</h2>
+      <div className="flex flex-col items-center px-[10vw] py-[80px] bg-iLight">
+        <h2 className="font-iFontSerif text-[3.5rem] text-iOrange ">
+          Sponsors
+        </h2>
         <div className="w-[100vw] h-[180px] my-[100px] lg:my-0 px-[8vw] flex flex-wrap gap-6 justify-center lg:justify-between items-center text-2xl text-[#E54613] font-iFontB">
           <h1>IFFI</h1>
           <h1>FIAPF</h1>
