@@ -1,3 +1,5 @@
+"use client";
+
 import PageLinks from "./PageLinks";
 import { FaUserCircle, FaSearch } from "react-icons/fa";
 import { HiMenuAlt2 } from "react-icons/hi";
