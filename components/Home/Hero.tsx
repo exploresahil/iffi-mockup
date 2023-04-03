@@ -309,8 +309,8 @@ function Hero() {
         <h2 className="font-iFontSerif text-[3.5rem] text-iOrange">
           Highlights of the Bazaar
         </h2>
-        <div class="o-tape -left"></div>
-        <div class="o-tape -right"></div>
+        <div className="o-tape -left"></div>
+        <div className="o-tape -right"></div>
         <div className="videosContainer relative z-[98] grid grid-cols-3 gap-4 w-[100vw] h-[500px] px-[15vw]">
           <div className="videos relative z-[100] h-aoto">
             <div className="h-[250px] relative">
