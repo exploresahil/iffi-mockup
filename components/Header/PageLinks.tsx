@@ -1,6 +1,12 @@
 import Link from "next/link";
 
-export const PageLinks = ({ title, pageLink }) => {
+export const PageLinks = ({
+  title,
+  pageLink,
+}: {
+  title: string;
+  pageLink: string;
+}) => {
   return (
     <li>
       <Link
