@@ -53,7 +53,7 @@
   }
   @font-face {
     font-family: "RobechaDaniera";
-    src: url("/public/font/Unbounded/RobechaDaniera.woff") format("woff");
+    src: url("../public/font/Unbounded/RobechaDaniera.woff") format("woff");
     font-display: swap;
     font-style: normal;
   }
