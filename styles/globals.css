@@ -23,7 +23,8 @@
   }
   @font-face {
     font-family: "Unbounded-ExtraLight";
-    src: url("../public/font/Unbounded/Unbounded-ExtraLight.woff") format("woff");
+    src: url("../public/font/Unbounded/Unbounded-ExtraLight.woff")
+      format("woff");
     font-display: swap;
     font-style: normal;
   }
@@ -206,4 +207,20 @@
 
 .o-tape.-right {
   right: 2rem;
+}
+
+.heroContainer {
+  height: calc(100vh - 80px);
+}
+
+.DHidden {
+  display: none;
+}
+
+.imgRadiusOne {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.imgRadiusTwo {
+  border-radius: 10px 0 0 10px;
 }
