@@ -169,11 +169,11 @@ function Hero() {
         y: -220,
         padding: 0,
         margin: 0,
+        stagger: 0.1,
         scrollTrigger: {
           trigger: imagesContainer,
           //markers: "true",
           scrub: 0.1,
-          stagger: true,
           start: "top 80px",
           end: "bottom bottom",
         },
